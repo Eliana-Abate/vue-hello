@@ -12,6 +12,7 @@ const root = new Vue({
         location: 'Sicily',
         volcanoType: 'Stratovolcano',
         lastEruption: '20 July 2021',
+        image: './img/Etna.jpg'
     
     }
 });

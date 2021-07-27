@@ -17,10 +17,10 @@
 
         <main class="container">
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img v-bind:src="image" class="card-img-top" alt="">
                 <div class="card-body">
                   <h5 class="card-title"> {{volcanoName}}</h5>
-                  <p class="card-text">Etna's features</p>
+                  <p class="card-text">Etna's features:</p>
                   <ul>
                       <li>Height: {{height}} </li>
                       <li>Location: {{location}} </li>
