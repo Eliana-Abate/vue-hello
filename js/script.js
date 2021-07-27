@@ -8,7 +8,7 @@ const root = new Vue({
     data: {
         message: 'Benvenuto sul vulcano più alto d\'Europa!',
         volcanoName: 'Etna',
-        height: '3340',
+        height: '3340 mt',
         location: 'Sicily',
         volcanoType: 'Stratovolcano',
         lastEruption: '20 July 2021',
